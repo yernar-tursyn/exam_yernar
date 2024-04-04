@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+    <script src="./js/index.js"></script>
+    <title>TO DO</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="add-task-block">
+        <div class="width-control">
+          <h1>To do app</h1>
+          <div class="row">
+            <h2>Create new To Do</h2>
+            <input type="text" placeholder="Enter task name" id="input-task" />
+            <button id="add-btn">Add</button>
+          </div>
+        </div>
+      </div>
+      <div class="main-column">
+        <div class="columns width-control">
+          <div class="col col_todo">
+            <div class="col__status">To Do</div>
+            <div class="col__tasks col__tasks_todo">
+              <!-- <div class="card">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt itaque
+                eaque fugit dolores temporibus reprehenderit excepturi debitis, omnis
+                asperiores voluptatibus quae, amet, harum magnam iure provident ea cum
+                assumenda doloribus.
+              </p>
+            </div> -->
+          </div>
+          </div>
+          <div class="col col_progress">
+            <div class="col__status">In Progress</div>
+            <div class="col__tasks col__tasks_progress"></div>
+          </div>
+          <div class="col col_done">
+            <div class="col__status">Done</div>
+            <div class="col__tasks col__tasks_done"></div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </body>
+</html>
